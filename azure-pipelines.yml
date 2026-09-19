@@ -43,7 +43,6 @@ pr: none
 
 pool:
   vmImage: 'windows-latest'
-  demands: npm
 
 stages:
 - stage: 'Build'
