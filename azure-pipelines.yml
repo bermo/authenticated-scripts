@@ -54,7 +54,7 @@ stages:
     steps:
     - task: NodeTool@0
       inputs:
-        versionSpec: '10.x'
+        versionSpec: '24.x'
       displayName: 'Install Node.js'
     - script: |
         npm run initdev
@@ -100,7 +100,7 @@ stages:
           steps:
           - task: NodeTool@0
             inputs:
-              versionSpec: '10.x'
+              versionSpec: '24.x'
             displayName: 'Install Node.js'
           - task: TfxInstaller@3
             displayName: 'Use Node CLI for Azure DevOps'
